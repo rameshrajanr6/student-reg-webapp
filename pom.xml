@@ -12,7 +12,7 @@
 		<java.version>11</java.version>
 		<maven.compiler.source>11</maven.compiler.source>
 		<maven.compiler.target>11</maven.compiler.target>
-		<sonar.host.url>http://35.170.245.195:9000/</sonar.host.url>
+		<sonar.host.url>http://18.209.167.198:9000/</sonar.host.url>
 		<sonar.login>admin</sonar.login>
         <sonar.password>redhat</sonar.password>
 	    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -26,11 +26,11 @@
     <distributionManagement>
 		<repository>
 			<id>nexus</id>
-			<url>http://44.203.58.15:8081/repository/student-reg-webapp-release/</url>
+			<url>http://44.211.221.195:8081/repository/student-reg-webapp-release/</url>
 		</repository>
 		<snapshotRepository>
 			<id>nexus</id>
-			<url>http://44.203.58.15:8081/repository/student-reg-webapp-snapshot/</url>
+			<url>http://44.211.221.195:8081/repository/student-reg-webapp-snapshot/</url>
 		</snapshotRepository>
     </distributionManagement>
 
